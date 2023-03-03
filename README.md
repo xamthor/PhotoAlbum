@@ -1,5 +1,5 @@
 # Photo Album 
-This is a console application that displays photo IDs and titles in an album. The photos are retrieved from the following api at  [https://jsonplaceholder.typicode.com/photos](https://jsonplaceholder.typicode.com/photos).
+This is a console application that displays photo IDs and titles in an album. The photos are retrieved from the following api [https://jsonplaceholder.typicode.com/photos](https://jsonplaceholder.typicode.com/photos).
 # Prerequisites
 To build and run this application, you will need the following:
 * Java Development Kit (JDK) 19 or later
