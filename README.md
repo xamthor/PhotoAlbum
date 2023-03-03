@@ -4,6 +4,33 @@ This is a console application that displays photo IDs and titles in an album. Th
 To build and run this application, you will need the following:
 * Java Development Kit (JDK) 19 or later
 * Maven 3.9.0 or later installed and added to the PATH environment variable
+
+# Test
+To execute the application's tests, use the following command line with Maven:
+
+```bash
+$ mvn test
+```
+Example Result
+```bash
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running PhotoAlbumTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.302 s - in PhotoAlbumTest
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.106 s
+[INFO] Finished at: 2023-03-02T18:17:32-06:00
+[INFO] ------------------------------------------------------------------------
+```
+
 # Build
 To build this application, you can use any Java IDE that supports Maven. Alternatively, you can build the application from the command line using Maven:
 
